@@ -1,0 +1,29 @@
+# Wpspoti Panel Configuration
+# Copy to /etc/wpspoti/wpspoti.conf during installation
+
+panel_name=Wpspoti Panel
+panel_port=8443
+panel_dir=/var/www/wpspoti-panel
+data_dir=/var/wpspoti
+backup_dir=/var/wpspoti/backups
+log_dir=/var/log/wpspoti
+
+# PHP Version
+php_version=8.3
+
+# Database
+db_path=/var/wpspoti/panel.db
+db_root_password=CHANGE_ME
+
+# Session
+session_timeout=1800
+
+# Upload
+max_upload_size=256M
+
+# SSL
+ssl_cert=/etc/ssl/wpspoti/panel.crt
+ssl_key=/etc/ssl/wpspoti/panel.key
+
+# Monitoring
+monitoring_interval=60
